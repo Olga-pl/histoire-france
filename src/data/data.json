@@ -1,0 +1,419 @@
+{
+    "Home":{
+        "title": "Histoire de France",
+        "introduction": "Venez voyager parmis les grandes époques qui ont construit la France que nous connaissons."
+    },
+
+    "Periods": [
+        {
+            "img": "img/antiquite.jpeg",
+            "name": "Antiquité",
+            "date": "Du Ier au Vème siècle"
+        },
+        {
+            "img": "img/haut-moyen-age.jpeg",
+            "name": "Haut Moyen-âge",
+            "date": "Du Vème au XIème siècle"
+        },
+        {
+            "img": "img/bas-moyen-age.jpeg",
+            "name": "Bas Moyen-âge",
+            "date": "Du XIème au XVème siècle"
+        },
+        {
+            "img": "img/renaissance.jpeg",
+            "name": "Renaissance",
+            "date": "Du XVème au XVIème siècle"
+        },
+        {
+            "img": "img/moderne.jpeg",
+            "name": "Époque moderne",
+            "date": "Du XVIIème siècle au XVIIIème siècle"
+        },
+        {
+            "img": "img/contemporaine.jpeg",
+            "name": "Époque contemporaine",
+            "date": "Du XXème siècle à aujourd'hui"
+        }
+
+
+    ],
+    "Wars": [
+        {
+            "img": "img/war-middle-age.jpeg",
+            "name": "Guerres du Moyen-âge",
+            "date": "Du Vème au XVème siècle"
+        },
+        {
+            "img": "img/war-renaissance.jpeg",
+            "name": "Guerres de la Renaissance",
+            "date": "Du XVème au XVIIème siècle"
+        },
+        {
+            "img": "img/war-moderne.jpeg",
+            "name": "Guerres à l'époque moderne",
+            "date": "Du XVIIème au XXème siècle"
+        },
+        {
+            "img": "img/war-contemporaine.jpeg",
+            "name": "Guerres à l'époque contemporaine",
+            "date": "Du XXIème siècle à aujourd'hui"
+        }
+
+    ],
+
+    "About":{
+        "img": "img/crown.jpeg",
+        "presentation": "Bla Bla bla bla"
+    },
+
+    "Summary":[
+        {
+            "id": "1",
+            "period": "Préhistoire",
+            "chapters": [
+                {
+                    "id": "1",
+                    "title": "L'arrivée des Homos Sapiens"                            
+                },
+                {
+                    "id": "2",
+                    "title": "L'homme de Cro-Magnon: l'ancêtre surdoué"                            
+                },
+                {
+                    "id": "3",
+                    "title": "L'âge de la pierre polie"                            
+                },
+                {
+                    "id": "4",
+                    "title": "L'âge des métaux"                            
+                }
+            ]  
+        },
+        {
+            "id": "2",
+            "period": "Antiquité",
+            "chapters": [
+                {
+                    "id": "1",
+                    "title": "De l'indépendance à la soumission"
+                },
+                {
+                    "id": "2",
+                    "title": "La Gaule Romaine"
+                },
+                {
+                    "id": "3",
+                    "title": "Le degré zéro du fait urbain"
+                },
+                {
+                    "id": "4",
+                    "title": "La Gaule devient chrétienne"
+                },
+                {
+                    "id": "5",
+                    "title": "Les grandes invasions"
+                }            
+            ]
+        },
+        {
+            "id": "3",
+            "period": "Haut Moyen-âge",
+            "chapters": [
+                {
+                    "title": "La Gaule de Clovis"
+                },
+                {
+                    "title": "La Gaule décadente"
+                },
+                {
+                    "title": "La menace de l'islam"
+                },
+                {
+                    "title": "L'empire de Charlemagne"
+                },
+                {
+                    "title": "L'an mil"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "period": "Bas Moyen-âge",
+            "chapters": [
+                {
+                    "title":"Philippe Auguste"
+                },
+                {
+                    "title": "La société Féodale",
+                    "parts": [
+                        {
+                            "section": "Le seigneur"
+                        },
+                        {
+                            "section": "Le paysan"
+                        },
+                        {
+                            "section": "Les clercs"
+                        },
+                        {
+                            "section": "Le temps des cathédrales"
+                        },
+                        {
+                            "section": "Les hérésies"
+                        },
+                        {
+                            "section": "La ville au moyen-âge"
+                        },
+                        {
+                            "section": "La révolution technique"
+                        },
+                        {
+                            "section": "Le commerce"
+                        },
+                        {
+                            "section": "Les lettres"
+                        },
+                        {
+                            "section": "La papauté en Avignon"
+                        },
+                        {
+                            "section": "La ville au moyen-âge"
+                        }
+                        
+
+                    ]
+                },
+                {
+                    "title":"Les débuts de la guerre de Cent Ans"
+                },
+                {
+                    "title":"La peste noire"
+                },
+                {
+                    "title":"Les cavaliers de l'Apocalypse"
+                },
+                {
+                    "title":"Armagnac et Bourguignons"
+                },
+                {
+                    "title":"Jeanne d'Arc"
+                },
+                {
+                    "title":"Charles VII et Louis XI le réunificateur"
+                },
+                {
+                    "title":"L'ambition italienne"
+                },
+                {
+                    "title":"La lutte contre Charles Quint"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "period": "Renaissance",
+            "chapters": [
+                {
+                    "title": "La Renaissance"
+                },
+                {
+                    "title": "La galaxie de Gutemberg"
+                },
+                {
+                    "title": "Le beau XVIème siècle"
+                },
+                {
+                    "title": "Les Réformes"
+                },
+                {
+                    "title": "Les guerres de religion"
+                },          
+                {
+                    "title": "Henri IV"
+                },
+                {
+                    "title": "Au temps de Sully"
+                } 
+            ]
+        },
+        {
+            "id": "6",
+            "period": "Époque Moderne",
+            "chapters": [
+                {
+                    "title": "Le Roi et le Cardinal"
+                },
+                {
+                    "title": "La société française"
+                },
+                {
+                    "title": "La Fronde et Mazarin"
+                },
+                {
+                    "title": "Louis XIV et l'absolutisme"
+                },
+                {
+                    "title": "Le colbertisme"
+                },          
+                {
+                    "title": "Un règne sous influence"
+                },
+                {
+                    "title": "Louis XIV, le crépuscule de la royauté"
+                },
+                {
+                    "title": "Le siècle des révolutions",
+                    "parts":[
+                        {
+                            "section": "La révolution bourgeoise"
+                        },
+                        {
+                            "section": "La Terreur"
+                        },
+                        {
+                            "section": "La refonte consulaire"
+                        }
+                    ]
+                },
+                {
+                    "title":"L'empire intérieur de Napoléon"
+                }, 
+                {
+                    "title":"Napoléon, chef de guerre"
+                }, 
+                {
+                    "title":"Le premier domaine colonial"
+                }, 
+                {
+                    "title":"La modernisation de la France"
+                }, 
+                {
+                    "title":"La IIème République"
+                }, 
+                {
+                    "title":"Napoléon III"
+                }, 
+                {
+                    "title":"La guerre de 1870"
+                }, 
+                {
+                    "title":"La Commune"
+                }, 
+                {
+                    "title":"Les mutations de la société française"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "period": "Époque Contemporaine",
+            "chapters": [
+                {
+                    "title": "L'avénement de l'âge industriel"
+                },
+                {
+                    "title": "La transformation de Paris"
+                },
+                {
+                    "title": "Le triomphe de la République"
+                },
+                {
+                    "title": "La révolution scolaire"
+                },
+                {
+                    "title": "La querelle religieuse"
+                },
+                {
+                    "title": "La France des terroirs"
+                },
+                {
+                    "title": "Le « boom » des villes"
+                },
+                {
+                    "title": "Les Français d'Outre-Mer"
+                },
+                {
+                    "title": "La Belle époque"
+                },
+                {
+                    "title": "La Première Guerre Mondiale"
+                },
+                {
+                    "title": "Le second souffle de la République"
+                },
+                {
+                    "title": "La modernisation interrompue"
+                },
+                {
+                    "title": "La défaite de la France"
+                },
+                {
+                    "title": "Collaboration, Résistance et Libération"
+                },
+                {
+                    "title": "La IVème République"
+                },
+                {
+                    "title": "La rupture gaulliste"
+                },
+                {
+                    "title": "La fin de la plus grande France"
+                },
+                {
+                    "title": "Une double révolution"
+                },
+                {
+                    "title": "L'enracinement de Vème République"
+                },
+                {
+                    "title": "Les France",
+                    "parts": [
+                        {
+                            "section": "L'espace Français"
+                        },
+                        {
+                            "section": "France Urbaine, France Rurale"
+                        },
+                        {
+                            "section": "Le dualisme culturel"
+                        },
+                        {
+                            "section": "Le dualisme culturel"
+                        },
+                        {
+                            "section": "L'architecture"
+                        },
+                        {
+                            "section": "France politique, France religieuse"
+                        }
+                    ]
+                },
+                {
+                    "title": "Les Français",
+                    "parts": [
+                        {
+                            "section": "Hygiène et Santé"
+                        },
+                        {
+                            "section": "Les Français dans le siècle"
+                        },
+                        {
+                            "section": "Les peurs du millénaire"
+                        },
+                        {
+                            "section": "La France en Europe"
+                        },
+                        {
+                            "section": "Une certaine idée de la France"
+                        }
+                    ]
+                }
+                
+                   
+
+            ]
+        }
+       
+    ]
+}

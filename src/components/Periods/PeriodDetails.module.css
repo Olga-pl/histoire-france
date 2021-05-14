@@ -7,40 +7,118 @@
 	color: #f44336;
 	border-top: 1px solid #f44336;
 	border-bottom: 1px solid #f44336;
-	font-family: "Open Sans", sans-serif;
-	font-size: .7rem;
-	font-weight: 300;
+	font-size: 20px;
+	font-weight: 500;
 	letter-spacing: 0.1rem;
-	padding: .5rem 0;
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: -70px; 
+	margin-bottom: 15px !important;
+	text-shadow: 1px 1px #000000;
 }
+
 
 .counter{
 	font-size: 100px;
 	font-weight: 700;
-	color: #444444;
+	color: #262626;
+	margin-bottom: 20px;
 }
 
 .main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 
 .part{
 	margin-right: 30px;
-	position: relative;
-	top: -390px;
+	padding-bottom: 150px;
 }
 
-#period_details{
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		padding-top: 350px;
-		padding-bottom: 350px;
-		text-align: center;
-	
+.container {
+	font-size: 30px;
+}
+.container .hidden_line {
+	height: 50px;
+	overflow: hidden;
+}
+.container .hidden_line:hover p {
+	transform: translate(0, -60px);
+    text-decoration-color: #f44336 !important;
+}
+
+.container .hidden_line a {
+   text-decoration: none;
+}
+
+.container p {
+	margin: 0;
+	height: 45px;
+	line-height: 30px;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.discover{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: -70px; 
+	margin-bottom: 15px !important;
+	background-color: #f44336;
+	padding-top: 10px;
+    text-decoration-color: #f44336 !important;
+}
+
+.btn_light{
+	margin: 10;
+	overflow-wrap: break-word;
+	color: red;
+}
+
+.intro_period{
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../../assets/img/france3.jpg) center center no-repeat;
+	background-color: #000000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	padding-top: 250px;
+	padding-bottom: 350px;
+	text-align: center;
+}
+
+#fixed_btn{
+	position: fixed;
+    bottom: 20px;
+    right: 60px; 
+}
+
+.section_container:nth-of-type(1){
+	background-color: purple;
+}
+
+.chap_section{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width:50%;
+	margin: auto;
+	align-items: flex-start;
+	margin-top: 20px;
+}
+
+.chap_title{
+	padding-left:15px;
+	border-width: 3px 0 3px 10px;
+    border-style: solid;
+    border-image:linear-gradient(to bottom, #f44336, #660000) 1 100%; 
 }

@@ -18,7 +18,6 @@ export const Periods = (props) => {
             : "loading"}
             </div>
         </div>
-
     </div>
   )
 }

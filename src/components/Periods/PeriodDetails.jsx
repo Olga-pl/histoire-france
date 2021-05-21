@@ -4,8 +4,9 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import PeriodDetailsCSS from "../../components/Periods/PeriodDetails.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Sections from "../Periods/Sections"
-import Radium from 'radium'
+import {Card} from "react-bootstrap"
+
+import {Prehistoire1, Prehistoire2}  from "../Periods/Prehistoire/Prehistoire"
 
 
 export const PeriodDetails = (props) => {
@@ -28,15 +29,15 @@ export const PeriodDetails = (props) => {
                             <div className={PeriodDetailsCSS.main}>
                                 {period.chapters.map(chapter=>(
                                     <div className={PeriodDetailsCSS.part}>
-                                            <div>
-                                                <p className={PeriodDetailsCSS.counter}>{chapter.id}</p>
-                                                <div className={PeriodDetailsCSS.container}>
-                                                    <div className={PeriodDetailsCSS.hidden_line}>  
-                                                        <div><p className={PeriodDetailsCSS.summary} >{chapter.title}</p></div>
-                                                        <a href={`#${chapter.title}`} ><p className={PeriodDetailsCSS.discover}>Découvrir</p></a>
-                                                    </div>
+                                        <div>
+                                            <p className={PeriodDetailsCSS.counter}>{chapter.id}</p>
+                                            <div className={PeriodDetailsCSS.container}>
+                                                <div className={PeriodDetailsCSS.hidden_line}>  
+                                                    <div><p className={PeriodDetailsCSS.summary} >{chapter.title}</p></div>
+                                                    <a href={`#${chapter.title}`} ><p className={PeriodDetailsCSS.discover}>Découvrir</p></a>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
@@ -45,15 +46,43 @@ export const PeriodDetails = (props) => {
                         <div className={PeriodDetailsCSS.section_container}>
                             <div className={PeriodDetailsCSS.chap_section}>
                             {period.chapters.map(chapter=>(
-                                        <div>
-                                                    <h2 id={chapter.title} data-aos="fade-right" className={PeriodDetailsCSS.chap_title}>{chapter?.title}</h2>
-                                                    <p>Bla Bla</p>
-                                                    <p>Bla Bla</p>
-                                                    <p>Bla Bla</p>
-                                                    <p>Bla Bla</p>
-                                                    <p>Bla Bla</p>
-                                        </div>
-                                    ))}
+                                <div>
+                                    <div className={PeriodDetailsCSS.contain_title}>
+                                        <h2 id={chapter.title} data-aos="fade-right" className={PeriodDetailsCSS.chap_title}>{chapter?.title}</h2>
+                                    </div>
+                                        {chapter.section?.map(section=>(
+                                            <details className={PeriodDetailsCSS.panel}>
+                                                <summary>
+                                                    <Card className={PeriodDetailsCSS.card_header}>  
+                                                        <Card.Header key={section.id} id={section.id} >
+                                                            <h4 className={PeriodDetailsCSS.section_title}>{section.title}</h4>
+                                                        </Card.Header>
+                                                    </Card>
+                                                </summary>
+                                                <div className={PeriodDetailsCSS.content_section}>
+                                                {(() => {
+                                                        switch (section.id) {
+                                                                case "1":   return <Prehistoire1 data={chapter.section} />;
+                                                                case "2": return  <Prehistoire2 data={chapter.section} />;
+                                                                case "3":  return <div>ID 3</div>;
+                                                                default:      return <div>ID 4</div>;
+                                                            }
+                                                        })()}
+                                                    {/* {section.text.map(article=>(
+                                                    <Card className={PeriodDetailsCSS.card_container} border="danger" style={{ width: '18rem' }}>
+                                                        <Card.Body>
+                                                        <Card.Title>Danger Card Title</Card.Title>
+                                                        <Card.Text>
+                                                           {article.article}
+                                                        </Card.Text>
+                                                        </Card.Body>
+                                                    </Card>
+                                                    ))} */}
+                                                </div>
+                                            </details>
+                                        ))}
+                                </div>
+                            ))}
                             </div>
                         </div>
                     </div>

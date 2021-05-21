@@ -21,11 +21,11 @@ export const Summary = (props) => {
                             <li className="timeline">
                                 <div className="icon done" />
                                 <details className="panel">
-                                <summary>{period.period}</summary>
-                                    {period.chapters.map(chapter=>(
-                                        <p> {chapter.title}</p>   
-                                ))}
-                                <a href={`/${period.id}/${period.period}`}><button type="button" class="btn btn-outline-danger btn-lg">Lire</button></a>
+                                    <summary>{period.period}</summary>
+                                        {period.chapters.map(chapter=>(
+                                            <p> {chapter.title}</p>   
+                                        ))}
+                                    <a href={`/${period.id}/${period.period}`}><button type="button" class="btn btn-outline-danger btn-lg">Lire</button></a>
                                 </details>
                             </li>
                         ))}

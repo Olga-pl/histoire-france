@@ -78,19 +78,75 @@
                     "section": [
                         {
                             "id": "1",
-                            "title": "L'arrivée des Homos Sapiens"                            
+                            "title": "L'arrivée des Homos Sapiens",
+                            "text": [
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                }
+                            ]                            
                         },
                         {
                             "id": "2",
-                            "title": "L'homme de Cro-Magnon: l'ancêtre surdoué"                            
+                            "title": "L'homme de Cro-Magnon: l'ancêtre surdoué",
+                            "text": [
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                }
+                            ]                              
                         },
                         {
                             "id": "3",
-                            "title": "L'âge de la pierre polie"                            
+                            "title": "L'âge de la pierre polie",
+                            "text": [
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                }
+                            ]                             
                         },
                         {
                             "id": "4",
-                            "title": "L'âge des métaux"                            
+                            "title": "L'âge des métaux",
+                            "text": [
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                },
+                                {
+                                    "article" :"text 1"
+                                }
+                            ]                              
                         }
                     ]
                 }              
@@ -235,7 +291,6 @@
         {
             "id": "5",
             "period": "Renaissance",
-            "main_title": "",
             "chapters": [
                 {
                     "id": "1",
@@ -263,6 +318,7 @@
             "period": "Époque Moderne",
             "chapters": [
                 {
+                    "id": "1",
                     "title": "La France Monarchique",
                     "section": [
                         {
@@ -280,6 +336,7 @@
                     ]
                 },
                 {
+                    "id": "2",
                     "title": "La France Révolutionnaire",
                     "section": [
                         {
@@ -297,6 +354,7 @@
                     ]
                 },
                 {
+                    "id": "3",
                     "title": "La France Napoléonienne",
                     "section": [
                         {
@@ -314,6 +372,7 @@
                     ]
                 },
                 {
+                    "id": "4",
                     "title": "La France Libérale",
                     "chapters": [
                         {
@@ -331,6 +390,7 @@
                     ]
                 },
                 {
+                    "id": "5",
                     "title": "Le siècle des Révolutions",
                     "section": [
                         {
@@ -352,6 +412,7 @@
             "period": "Époque Contemporaine",
             "chapters": [
                 {
+                    "id": "1",
                     "title": "La France Républicaine",
                     "section":[
                         {
@@ -369,6 +430,7 @@
                     ]
                 },
                 {
+                    "id": "2",
                     "title": "La Grande Guerre",
                     "section":[
                         {
@@ -386,6 +448,7 @@
                     ]
                 },
                 {
+                    "id": "3",
                     "title": "La France de l'entre-deux-guerres",
                     "section":[
                         {
@@ -403,6 +466,7 @@
                     ]
                 },
                 {
+                    "id": "4",
                     "title": "La France dans la Seconde Guerre mondiale",
                     "section":[
                         {
@@ -420,6 +484,7 @@
                     ]
                 },
                 {
+                    "id": "5",
                     "title": "La France de la IVème République",
                     "section":[
                         {
@@ -437,6 +502,7 @@
                     ]
                 },
                 {
+                    "id": "6",
                     "title": "La France de la Vème République ",
                     "section":[
                         {
@@ -454,6 +520,7 @@
                     ]
                 },
                 {
+                    "id": "7",
                     "title": "Les France ",
                     "section":[
                         {
@@ -474,6 +541,7 @@
                     ]
                 },
                 {
+                    "id": "8",
                     "title": "Les Français",
                     "section": [
                         {

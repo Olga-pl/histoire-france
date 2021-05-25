@@ -85,7 +85,7 @@
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../../assets/img/france3.jpg) center center no-repeat;
+	background: url(../../assets/img/mountain.jpeg) center center no-repeat;
 	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -96,15 +96,15 @@
 	text-align: center;
 }
 
+
 #fixed_btn{
 	position: fixed;
     bottom: 20px;
     right: 60px; 
+    z-index: 2;
 }
 
-.section_container:nth-of-type(1){
-	background-color: purple;
-}
+
 
 .chap_section{
 	display:flex;
@@ -191,12 +191,7 @@
     padding-bottom: 20px;
 }
 
-.content_section{
-    background-color: #F6F6F6;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 .card_container{
     margin-right: 20px;
@@ -205,5 +200,88 @@
 }
 
 #prehistoire{
-    background-color: #660000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Abel', sans-serif !important;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+}
+
+.main_text{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    width: 100%;
+}
+
+
+.main_content h4{
+    color: #f44336;
+   
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 300px;
+	padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.intro_text{
+    width: 40%;
+    margin-left: 20px;
+    font-family: 'Abel', sans-serif !important;
+    font-size: 25px;
+}
+
+
+.content{
+	margin: 0 auto;
+}
+
+main{
+	padding: 1% 0;
+	position: relative;
+	background: #ffffff;
+	box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
+	height: 100%;
+}
+
+.zoom{
+	overflow: hidden;
+	padding-bottom: 55%;
+}
+.zoom img{
+	position: fixed;
+    top: -200px;
+	left: 50%;
+	max-width: 200%;
+	width: 100%;
+	transform: translateX(-50%);
+}
+@media (max-width: 667px) {
+	
+	.content{
+		margin: 0 auto;
+		max-width: 90%;
+		width: 100%;
+		height: 100%;
+		text-align: justify;
+	}
+	.zoom{
+		overflow: hidden;
+		padding-bottom: 75%;
+	}
+
 }
